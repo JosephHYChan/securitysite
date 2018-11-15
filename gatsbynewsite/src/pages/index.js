@@ -1,5 +1,6 @@
 import React from "react";
 import Helmet from "react-helmet";
+import { Link } from "gatsby";
 
 import Layout from '../components/layout';
 
@@ -10,7 +11,7 @@ import pic04 from '../assets/images/pic04.jpg'
 
 class Homepage extends React.Component {
     render() {
-        const siteTitle = "Gatsby Starter - Photon";
+        const siteTitle = "Security Website";
 
         return (
             <Layout>
@@ -18,9 +19,11 @@ class Homepage extends React.Component {
 
                 <section id="onepointtwo" className="main style1">
                     <div class="topnav">
-                        <a class="active" href="#home">Home</a>
-                        <a href="#news">News</a>
-                        <a href="#contact">Contact</a>
+                    <Link to="/#home/">Home</Link>
+                        <Link to="/updatesoft/">Updating Software</Link>
+                        <Link to="/password/">Passwords</Link>
+                        <Link to="/emailsec/">Email Security</Link>
+                        <Link to="/sectools/">Security Tools</Link>
                         <a href="#about">About</a>
                     </div>
                 </section>
@@ -29,10 +32,9 @@ class Homepage extends React.Component {
                     <div className="grid-wrapper">
                         <div className="col-6">
                             <header className="major">
-                                <h2>Lorem ipsum dolor adipiscing<br />
-                                amet dolor consequat</h2>
+                                <h2>Summary of the website purpose</h2>
                             </header>
-                            <p>Adipiscing a commodo ante nunc accumsan et interdum mi ante adipiscing. A nunc lobortis non nisl amet vis sed volutpat aclacus nascetur ac non. Lorem curae et ante amet sapien sed tempus adipiscing id accumsan.</p>
+                            <p></p>
                         </div>
                         <div className="col-6">
                             <span className="image fit"><img src={pic01} alt="" /></span>
