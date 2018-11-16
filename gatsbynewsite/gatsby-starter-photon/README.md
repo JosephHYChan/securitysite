@@ -5,9 +5,6 @@ Gatsby.js V2 starter based on the Photon site template, designed by HTML5 UP. Ch
 
 https://gatsby-photon.surge.sh
 
-## Running on cloud9
-USE THIS COMMAND gatsby develop -p $PORT -H $IP
-
 ## Installation
 
 Install this starter (assuming Gatsby is installed) by running from your CLI:

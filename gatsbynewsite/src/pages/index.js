@@ -32,9 +32,13 @@ class Homepage extends React.Component {
                     <div className="grid-wrapper">
                         <div className="col-6">
                             <header className="major">
-                                <h2>Summary of the website purpose</h2>
+                                <h2><strong>Summary of the website purpose</strong></h2>
                             </header>
-                            <p></p>
+                            <p>
+                                The purpose of this website is to teach people
+                                aspects of computer security that they may not know. 
+                                Please look at as many of the topics as you can.
+                            </p>
                         </div>
                         <div className="col-6">
                             <span className="image fit"><img src={pic01} alt="" /></span>

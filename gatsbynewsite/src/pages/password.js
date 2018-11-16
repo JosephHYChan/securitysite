@@ -14,7 +14,7 @@ function password () {
     </div>
     <div align = "left">
         <h1>Strong Passwords</h1>
-        <p>Strong passwords have in them:
+        <p><strong>Strong passwords have in them:</strong>
         <ul>
             <li>at least 1 number between 0-9</li>
             <li>at least 1 uppercase character</li>
@@ -24,7 +24,7 @@ function password () {
             <li>They should be unique for each account</li>
             <li>Not contain words spelled the exact same as they would be in a dictionary</li>
         </ul>
-        Why it's important: The importance of strong passwords cannot be understated. Many tactics that hackers use are based on <br />
+        <strong>Why it's important:</strong> The importance of strong passwords cannot be understated. Many tactics that hackers use are based on <br />
         how people come up with passwords. If a hacker guesses one password, they'll often try it out on any other accounts they know <br />
         you have. If they crack your email, they could use it to set up new passwords for other accounts, just by searching through your <br />
         emails. Each additional character will make the password to be exponentially longer to crack, so the longer they are, the better. <br />
