@@ -12,7 +12,7 @@ function emailsec () {
                         <Link to="/password/">Passwords</Link>
                         <Link to="/emailsec/">Email Security</Link>
                     </div>
-    <div align = "left">
+    <div class = "paragraph">
         <div align ="center"><h1><strong>Security Tools</strong></h1></div><br />
         <h2>Two Factor Authentication (2FA)</h2>
         <p>Description: Two Factor Authentication is based on using a secondary factor to log in to a website, either something you have <br />

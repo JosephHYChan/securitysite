@@ -14,9 +14,9 @@ function updatesoft () {
         <Link to="/emailsec/">Email Security</Link>
         <Link to="/sectools/">Security Tools</Link>
     </div>
-    <div>
+    <div class ="paragraph">
     <h1>Frequency of Updating software</h1>
-    <p>Description: Updating software is a good way to protect against security threats. By updating a computer's software, <br />
+    <p><strong>Description:</strong> Updating software is a good way to protect against security threats. By updating a computer's software, <br />
     it can then block the highest number of threats from accessing the computer. Many computers have automatic update features <br />
     which can make this a lot easier, updating at a certain time every week, or through the windows prompt which comes up every <br />
     day asking you to update. Information about updates can often be found online. <br /><br />
