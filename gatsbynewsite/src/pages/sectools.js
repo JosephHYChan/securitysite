@@ -7,12 +7,21 @@ function emailsec () {
     return(
     <Layout>
       <div class="topnav">
+<<<<<<< HEAD
         <Link to="/#home/">Home</Link>
         <Link to="/updatesoft/">Updating Software</Link>
         <Link to="/password/">Passwords</Link>
         <Link to="/emailsec/">Email Security</Link>
     </div>
     <div align = "left">
+=======
+                        <Link to="/#home/">Home</Link>
+                        <Link to="/updatesoft/">Updating Software</Link>
+                        <Link to="/password/">Passwords</Link>
+                        <Link to="/emailsec/">Email Security</Link>
+                    </div>
+    <div class = "paragraph">
+>>>>>>> 93c054e31be9dbc341d31f1838dc3f63db17bbfb
         <div align ="center"><h1><strong>Security Tools</strong></h1></div><br />
         <h2>Two Factor Authentication (2FA)</h2>
         <p><strong>Description:</strong> Two Factor Authentication is based on using a secondary factor to log in to a website, either something you have <br />

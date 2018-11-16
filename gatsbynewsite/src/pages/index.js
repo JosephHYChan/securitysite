@@ -12,12 +12,9 @@ import pic04 from '../assets/images/pic04.jpg'
 class Homepage extends React.Component {
     render() {
         const siteTitle = "Security Website";
-
         return (
             <Layout>
                 <Helmet title={siteTitle} />
-
-                <section id="onepointtwo" className="main style1">
                     <div class="topnav">
                     <Link to="/#home/">Home</Link>
                         <Link to="/updatesoft/">Updating Software</Link>
@@ -26,8 +23,6 @@ class Homepage extends React.Component {
                         <Link to="/sectools/">Security Tools</Link>
                         <a href="#about">About</a>
                     </div>
-                </section>
-
                 <section id="one" className="main style1">
                     <div className="grid-wrapper">
                         <div className="col-6">

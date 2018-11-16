@@ -12,7 +12,7 @@ function password () {
         <Link to="/emailsec/">Email Security</Link>
         <Link to="/sectools/">Security Tools</Link>
     </div>
-    <div align = "left">
+    <div class = "paragraph">
         <h1>Strong Passwords</h1>
         <p><strong>Strong passwords have in them:</strong>
         <ul>
