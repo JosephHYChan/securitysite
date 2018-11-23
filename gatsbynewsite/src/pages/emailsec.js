@@ -14,11 +14,7 @@ function emailsec () {
     </div>
     <div class = "paragraph">
         <h1>Email Security</h1>
-<<<<<<< HEAD
         <p><strong>These emails are so common:</strong> “log in here so we don't delete your account”. When you see emails like this, 
-=======
-        <p>These emails are so common: “log in here so we don't delete your account”. When you see emails like this, 
->>>>>>> 93c054e31be9dbc341d31f1838dc3f63db17bbfb
             it is because these emails are usually phishing scams designed to get your personal information by scaring you 
             or lying to you to get you to send personal information  to them or log in to a particular website that they made 
             so that they can take it from there. They might ask you to log into CIBC because “your account has been compromised”, 
