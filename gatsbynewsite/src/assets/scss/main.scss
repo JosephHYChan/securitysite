@@ -28,7 +28,7 @@
 
 /* Add a black background color to the top navigation */
 .topnav {
-    background-color: #ffffff;
+    background-color: #566869;
 	overflow: hidden;
 	display: flex;
     justify-content: space-between;
@@ -54,17 +54,25 @@
     color: black;
 }
 
-/* Add a color to the active/current link */
-.topnav a.active {
-    background-color: #4686a0;
-    color: white;
+.title{
+	margin-left: 30px;
+	font-size: 30px;
 }
 
+.quiz{
+		margin: 50px 60px;
+}
+.subheading{
+	margin-left: 30px;
+	font-size: 25px;
+}
 .paragraph {
 	margin-top: 20px;
-    margin-bottom: 50px;
-    margin-right: 70px;
-    margin-left: 60px;
+	margin-bottom: 50px;
+	margin-left: 30px;
+	font-size: 25px;
+  	left: 0px;
+  	width: 50%;
 }
 
 /* Basic */
@@ -219,6 +227,14 @@
 
 	.align-right {
 		text-align: right;
+	}
+
+	.video{
+		position: absolute;
+    	top: 900px;
+    	right: 350px;
+    	width: 300px;
+    	height: 300px;
 	}
 
 /* Section/Article */
@@ -975,14 +991,20 @@
 
 	#header {
 		@include padding(9em, 0, (0,0,_size(element-margin),0));
-		@include dark(#4686a0);
+		@include dark(#4686a0af);
 		background-attachment:	fixed,							fixed,							fixed;
-		background-image:		url('../images/overlay2.png'),		url('../images/overlay3.svg'),		linear-gradient(45deg, _palette(accent1-alt) 5%, _palette(accent3-alt) 30%, _palette(accent6-alt));
+		background-image:		url('../images/header.jpg'),		url('../images/overlay3.svg'),		linear-gradient(45deg, _palette(accent1-alt) 5%, _palette(accent3-alt) 30%, _palette(accent6-alt));
 		background-position:	top left,						center center,					center center;
 		background-size:		auto,							cover,							cover;
 		overflow: hidden;
 		position: relative;
+		opacity: 0.7;
 		text-align: center;
+		mix-blend-mode: normal;
+		color: rgb(255, 255, 255);
+		text-shadow: 0 3px black;
+		font-size: 24px;
+
 
 		h1 {
 			margin: 0;

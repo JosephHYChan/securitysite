@@ -4,7 +4,7 @@ import { Link } from "gatsby";
 
 import Layout from '../components/layout';
 
-import pic01 from '../assets/images/pic01.jpg'
+import pic01 from '../assets/images/cyber-security-icon.jpg'
 import pic02 from '../assets/images/pic02.jpg'
 import pic03 from '../assets/images/pic03.jpg'
 import pic04 from '../assets/images/pic04.jpg'
@@ -21,6 +21,7 @@ class Homepage extends React.Component {
                         <Link to="/password/">Passwords</Link>
                         <Link to="/emailsec/">Email Security</Link>
                         <Link to="/sectools/">Security Tools</Link>
+                        <Link to="/quiz/">Quiz</Link>
                         <a href="#about">About</a>
                     </div>
                 <section id="one" className="main style1">
