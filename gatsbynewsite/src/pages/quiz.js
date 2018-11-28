@@ -1,7 +1,7 @@
 
 import React from "react"
 import { Link } from "gatsby"
-import { RadioGroup, RadioButton } from 'react-radio-buttons'
+
 
 
 import Layout from '../components/layout';
@@ -14,12 +14,18 @@ function quiz () {
                         <Link to="/password/">Passwords</Link>
                         <Link to="/emailsec/">Email Security</Link>
                         <Link to="/sectools/">Security Tools</Link>
-                        <a href="#about">About</a>
                     </div>
   <div class = "quiz">
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScnFqRHydXmB7hcjEYIpkyAa89dZZAAo_9wqlBgD-xGd3-N9Q/viewform?embedded=true" 
-  width="800" height="1200" frameborder="0" marginheight="100" marginwidth="100">Loading...</iframe>
+  <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSczzLa_D0cJ7qtEMJMeyiJ9jazChQ7vksGVwn97D3j4FPUw4g/viewform?embedded=true" 
+  width="1000" height="2497" frameborder="100" marginheight="0" marginwidth="0">Loading...</iframe>
 </div>
+
+<div class = "quiztext">
+  <p>The purpose of this quiz is to gauge how much you have learned by using our site. Please answers the questions truthfully and
+    to the best of your ability!
+  </p>
+</div>
+
 </Layout>
   )
   }

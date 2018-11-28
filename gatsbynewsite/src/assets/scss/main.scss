@@ -60,7 +60,17 @@
 }
 
 .quiz{
-		margin: 50px 60px;
+		margin-top: 30px;
+		margin-left: 150px;
+		display:block;
+}
+.quiztext{
+	position: absolute;
+	font-size: 30px;
+    top: 900px;
+    right: 350px;
+    width: 700px;
+    height: 300px;
 }
 .subheading{
 	margin-left: 30px;
@@ -990,7 +1000,10 @@
 /* Header */
 
 	#header {
-		@include padding(9em, 0, (0,0,_size(element-margin),0));
+		padding-top: 50px;
+    	padding-right: 30px;
+    	padding-bottom: 50px;
+    	padding-left: 80px;
 		@include dark(#4686a0af);
 		background-attachment:	fixed,							fixed,							fixed;
 		background-image:		url('../images/header.jpg'),		url('../images/overlay3.svg'),		linear-gradient(45deg, _palette(accent1-alt) 5%, _palette(accent3-alt) 30%, _palette(accent6-alt));
@@ -1036,6 +1049,7 @@
 			opacity: 1;
 			position: relative;
 			z-index: 1;
+			font-size: 30px;
 
 			.actions {
 				@include vendor('transition', 'transform 1.25s ease');
@@ -1069,7 +1083,6 @@
 					opacity: 0;
 				}
 			}
-
 			&:after {
 				opacity: 1;
 			}

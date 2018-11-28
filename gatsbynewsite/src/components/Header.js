@@ -5,7 +5,6 @@ class Header extends React.Component {
         return (
             <section id="header">
                 <div className="inner">
-                    <span className="icon major fa-cloud"></span>
                     <h1><strong>Cyber Security Training</strong></h1>
                     <p>A website that aims to educate the average user on<br />
                     proper cybersecurity practices and common cybersecurity threats.</p>                    

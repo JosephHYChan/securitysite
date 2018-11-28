@@ -22,7 +22,6 @@ class Homepage extends React.Component {
                         <Link to="/emailsec/">Email Security</Link>
                         <Link to="/sectools/">Security Tools</Link>
                         <Link to="/quiz/">Quiz</Link>
-                        <a href="#about">About</a>
                     </div>
                 <section id="one" className="main style1">
                     <div className="grid-wrapper">
@@ -32,7 +31,8 @@ class Homepage extends React.Component {
                             </header>
                             <p>
                                 The purpose of this website is to teach people
-                                aspects of computer security that they may not know. 
+                                aspects of computer security that they may not know. This site contains information
+                                and practical steps that you can take to secure yourself when using the internet
                                 Please look at as many of the topics as you can.
                             </p>
                         </div>
