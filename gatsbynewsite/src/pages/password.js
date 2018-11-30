@@ -13,7 +13,7 @@ function password () {
         <Link to="/sectools/">Security Tools</Link>
     </div>
     <div class = "title">
-        <h1>Strong Passwords(What do you mean Strong Password? Mine's strong enough! I remember it, that's all I need!)</h1></div>
+        <h1>What do you mean Strong Password? Mine's strong enough! I remember it, that's all I need!</h1></div>
     <div class = "paragraph">
         <p><strong>Strong passwords have in them:</strong>
         <ul>
@@ -25,22 +25,24 @@ function password () {
             <li>They should be unique for each account</li>
             <li>Not contain words spelled the exact same as they would be in a dictionary</li>
         </ul>
-        <strong>Why it's important:</strong> The importance of strong passwords cannot be understated. Many tactics that hackers use are based on <br />
-        how people come up with passwords. If a hacker guesses one password, they'll often try it out on any other accounts they know <br />
-        you have. If they crack your email, they could use it to set up new passwords for other accounts, just by searching through your <br />
-        emails. Each additional character will make the password to be exponentially longer to crack, so the longer they are, the better. <br />
+        <strong>Why it's important:</strong> The importance of strong passwords cannot be understated. Many tactics that hackers use are based on 
+        how people come up with passwords. If a hacker guesses one password, they'll often try it out on any other accounts they know 
+        you have. If they crack your email, they could use it to set up new passwords for other accounts, just by searching through your 
+        emails. Each additional character will make the password to be exponentially longer to crack, so the longer they are, the better. 
         If the password follows the rules listed above, it will be much harder for someone to crack.<br /><br />
 
         <strong>Important Links:</strong> Go here to check your password strength: <a href = "https://howsecureismypassword.net/"> How Secure is my Password</a> 
          ("If you attended the CCS Roadshow this was the same program they used to evaluate password strength)<br /> 
-        Go here to generate a random password: <a href = "https://passwordsgenerator.net/">Password Generator</a> 
+        Go here to generate a random password: <a href = "https://passwordsgenerator.net/">Password Generator</a> <br />
 
 </p>
+    <iframe width="500" height="315" src="https://www.youtube.com/embed/xHSnHj-zKF4" frameborder="0" allow="accelerometer; autoplay; 
+    encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
     </div>
     <div class = "video">
     <body>
-            <object data="http://www.youtube.com/embed/yzGzB-yYKcc"
-            width="560" height="315"></object>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/yzGzB-yYKcc" frameborder="0" allow="accelerometer; autoplay; 
+        encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </body>
     </div>
 
@@ -75,7 +77,7 @@ function password () {
             <li>Click on the on the first result, which should say “LastPass Password Manager”</li>
             <li>Click on the Get button</li>
         </ol><br /><br />
-        <strong>How to install one on Microsoft Edge</strong><br />
+        <strong>How to install one on Firefox</strong><br />
         <ol>
             <li>Click on the settings button, it has three lines and is in the right corner of the screen.</li>
             <li>Click on the add-ons button.</li>
@@ -92,12 +94,6 @@ function password () {
 
         Information from: <a href = "https://www.alphr.com/features/371158/top-ten-password-cracking-techniques">Password Cracking Techniques</a>
     </p>
-    <div class ="video">
-    <body>
-        <object data="http://www.youtube.com/embed/HSnHj-zKF4"
-        width="560" height="315"></object>
-    </body>
-    </div>
     
     </div>
   </Layout>

@@ -17,7 +17,7 @@ function quiz () {
                     </div>
   <div class = "quiz">
   <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSczzLa_D0cJ7qtEMJMeyiJ9jazChQ7vksGVwn97D3j4FPUw4g/viewform?embedded=true" 
-  width="1000" height="2497" frameborder="100" marginheight="0" marginwidth="0">Loading...</iframe>
+  width="700" height="2497" frameborder="100" marginheight="0" marginwidth="0">Loading...</iframe>
 </div>
 
 <div class = "quiztext">

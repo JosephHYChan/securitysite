@@ -28,22 +28,23 @@
 
 /* Add a black background color to the top navigation */
 .topnav {
-    background-color: #566869;
+    background-color: #505353;
 	overflow: hidden;
+	//display: flex;
 	display: flex;
-    justify-content: space-between;
+	justify-content: space-around;
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
     float: left;
-	color: #333;
-	display: flex;
-    justify-content: space-between;
+	color: rgb(255, 255, 255);
+	//display: flex;
+    //justify-content: space-between;
     text-align: center;
 	padding: 10px 16px;
     text-decoration: none;
-	font-size: 30px;
+	font-size: 25px;
 	
 
 }
@@ -56,7 +57,7 @@
 
 .title{
 	margin-left: 30px;
-	font-size: 30px;
+	font-size: 25px;
 }
 
 .quiz{
@@ -66,23 +67,31 @@
 }
 .quiztext{
 	position: absolute;
-	font-size: 30px;
+	font-size: 25px;
     top: 900px;
     right: 350px;
     width: 700px;
     height: 300px;
 }
 .subheading{
-	margin-left: 30px;
-	font-size: 25px;
+	margin-left: 50px;
+	font-size: 20px;
 }
 .paragraph {
 	margin-top: 20px;
 	margin-bottom: 50px;
-	margin-left: 30px;
-	font-size: 25px;
+	margin-left: 50px;
+	font-size: 18px;
   	left: 0px;
   	width: 50%;
+}
+
+.onevid{
+		position: absolute;
+    	top: 650px;
+    	right: 290px;
+    	width: 290px;
+    	height: 300px;
 }
 
 /* Basic */
@@ -242,7 +251,7 @@
 	.video{
 		position: absolute;
     	top: 900px;
-    	right: 350px;
+    	right: 290px;
     	width: 300px;
     	height: 300px;
 	}
@@ -992,7 +1001,7 @@
 		&.style2 {
 			@include dark(#333);
 			background-attachment:	fixed,							fixed;
-			background-image:		url('../images/overlay1.png'),		url('../images/header.jpg');
+			background-image:		url('../images/33-Escape.png'),		url('../images/33-Escape.png');
 			background-size:		auto,							cover;
 		}
 	}
@@ -1000,13 +1009,13 @@
 /* Header */
 
 	#header {
-		padding-top: 50px;
+		padding-top: 40px;
     	padding-right: 30px;
-    	padding-bottom: 50px;
+    	padding-bottom: 40px;
     	padding-left: 80px;
 		@include dark(#4686a0af);
 		background-attachment:	fixed,							fixed,							fixed;
-		background-image:		url('../images/header.jpg'),		url('../images/overlay3.svg'),		linear-gradient(45deg, _palette(accent1-alt) 5%, _palette(accent3-alt) 30%, _palette(accent6-alt));
+		background-image:		url('../images/33-Escape.png'),		url('../images/33-Escape.png'),		linear-gradient(45deg, _palette(accent1-alt) 5%, _palette(accent3-alt) 30%, _palette(accent6-alt));
 		background-position:	top left,						center center,					center center;
 		background-size:		auto,							cover,							cover;
 		overflow: hidden;
@@ -1095,7 +1104,7 @@
 		@include padding(6em, 0, (0,0,_size(element-margin),0));
 		@include dark(#4686a0);
 		background-attachment:	fixed,							fixed,							fixed;
-		background-image:		url('../images/overlay2.png'),		url('../images/overlay4.svg'),		linear-gradient(45deg, _palette(accent6-alt), _palette(accent3-alt) 50%, _palette(accent1-alt) 95%);
+		background-image:		url('../images/33-Escape.png'),		url('../images/33-Escape.png'),		linear-gradient(45deg, _palette(accent6-alt), _palette(accent3-alt) 50%, _palette(accent1-alt) 95%);
 		background-position:	top left,						center center,					center center;
 		background-size:		auto,							cover,							cover;
 		text-align: center;
@@ -1189,7 +1198,7 @@
 		/* Header */
 
 			#header {
-				@include padding(5em, 0, (0,0,_size(element-margin),0));
+				@include padding(3em, 0, (0,0,_size(element-margin),0));
 				background-attachment: scroll;
 
 				br {
@@ -1235,7 +1244,7 @@
 		/* Header */
 
 			#header {
-				@include padding(8em, 3em, (0,0,_size(element-margin),0));
+				@include padding(3em, 3em, (0,0,_size(element-margin),0));
 			}
 
 		/* Footer */
@@ -1458,7 +1467,7 @@
 		/* Header */
 
 			#header {
-				@include padding(3em, 1em, (0,0,_size(element-margin),0));
+				@include padding(2em, 1em, (0,0,_size(element-margin),0));
 			}
 
 		/* Footer */

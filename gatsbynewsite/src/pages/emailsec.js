@@ -12,8 +12,8 @@ function emailsec () {
         <Link to="/password/">Passwords</Link>
         <Link to="/sectools/">Security Tools</Link>
     </div>
-    <div class = "title"><h1>Email Security</h1></div>
-    <div class = "subheading>"><h1>What you shouldn't do on your email (how to avoid phishing attacks):</h1></div>
+    <div class = "title"><h1>Email Security</h1>    
+        How to avoid phishing attacks:</div>
     <div class = "paragraph">
         <p><strong>These emails are so common:</strong> “log in here so we don't delete your account”. When you see emails like this, 
             it is because these emails are usually phishing scams designed to get your personal information by scaring you 
@@ -26,8 +26,9 @@ function emailsec () {
             <li>Learn about different kinds of phishing attacks</li>
             <li>Think before you click!</li>
             <li>Install an anti-phishing toolbar – they can check out the links in your emails and let you know if they are unsafe.</li>
-            <li>Check the website or link's security – does it have “https://” at the start of the url? If it does this means that 
-                the information sent between you and the website is encrypted, so that hackers cannot get to it.</li>
+            <li>Don't assume https:// means you are safe from being attack or scammed. A scammer can obtain a certificate for https:// for their
+                fake site to lure you into a false sense of security.
+            </li>
             <li>Check online account(s) regularly – so that you will know if anyone has hacked you, as you would remember your account activity. </li>
             <li>Use a Firewall – these can block unwanted software or hacking attempts. Having both a network firewall and a desktop one, is ideal!</li>
             <li>Don't click on the pop ups! - and don't click “cancel” on them, hit the “x” button in the corner! Hitting “cancel” will take you to a different website or create more pop-ups!</li>
@@ -41,7 +42,8 @@ function emailsec () {
         </div>
         <div className="video">
             <body>
-                <object data="http://www.youtube.com/embed/9TRR6lHviQc" width="560" height="315"></object>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/BnmneAjVrM4" frameborder="0" allow="accelerometer; 
+            autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </body>
         </div>
   </Layout>

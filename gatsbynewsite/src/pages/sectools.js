@@ -15,13 +15,13 @@ function emailsec () {
     <div class = "title"><h1><strong>Security Tools (for online accounts)</strong></h1><br /></div>
     <div class = "paragraph">
         <h2>Two Factor Authentication (2FA)</h2>
-        <p><strong>Description:</strong> Two Factor Authentication(2FA) is based on using a secondary factor to log in to a website, either something you have <br />
-            (Debit Card number, your phone number) , or a biological indicator (like thumb print, facial scan, your given GPS location or town area). <br />
-            With two factor authentication, the hacker would also need to have the thing that you have or the biological indicator <br />
+        <p><strong>Description:</strong> Two Factor Authentication(2FA) is based on using a secondary factor to log in to a website, either something you have 
+            (Debit Card number, your phone number) , or a biological indicator (like thumb print, facial scan, your given GPS location or town area). 
+            With two factor authentication, the hacker would also need to have the thing that you have or the biological indicator 
             Many banking insitution has begun to offer 2FA alongside their online services to combat the risk of being hacked or having sensitive personal information
             compromised <br />
 
-            <strong>Why should I use it?:</strong> Using a form two factor authentication can help one significantly in protecting their data with a strong password, <br />
+            <strong>Why should I use it?:</strong> Using a form two factor authentication can help one significantly in protecting their data with a strong password, 
             as it creates an extra factor that needs to be cracked by the hacker.<br /></p>
     </div>
     <div class = "video">

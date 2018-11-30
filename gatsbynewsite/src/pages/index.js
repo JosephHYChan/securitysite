@@ -38,7 +38,8 @@ class Homepage extends React.Component {
                             </p>
                         </div>
                         <div className="col-6">
-                            <span className="image fit"><img src={pic01} alt="" /></span>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/sdpxddDzXfE" frameborder="0" 
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>
                     </div>
                 </section>

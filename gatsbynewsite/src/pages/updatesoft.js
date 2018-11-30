@@ -26,7 +26,7 @@ function updatesoft () {
       those updates, some of which can help protect your computer in new ways. The WannaCry attack was based on people not updating their 
       software. which infected 200,000 people's computers, exploited the fact people do not keep their software up-to-date<br /><br />
       <strong>Is my computer up to date?:</strong> If your computer has Windows 7 or lower, then 
-      <a href ="http://www.microsoft.com/en-ca/download/details.aspx?id=19892">Microsoft Baseline Security Analyzer</a> 
+      <a href ="http://www.microsoft.com/en-ca/download/details.aspx?id=19892"> Microsoft Baseline Security Analyzer </a> 
       could be the right tool for you. This software will tell you which updates you need for your windows computer. 
 
 
@@ -34,15 +34,14 @@ function updatesoft () {
     You can download it at this link, and it does not need to be installed. As soon as it is downloaded, you can run it, and it can 
     begin installing the majority of your software updates for you. Once it opens, just press the button in the right corner to start 
     installing most of the updates your computer needs. Download it 
-    <a href = "https://patchmypc.com/home-updater-download">here</a>
+    <a href = "https://patchmypc.com/home-updater-download"> here </a>
     <br /><br />
-    <strong>Sources</strong>
     </p>
   </div>
-  <div class ="video">
-  <body>
-        <object data="http://www.youtube.com/embed/cZ543_0bjbw"
-        width="560" height="315"></object>
+  <div class = "onevid">
+  <body> 
+    <strong>WannaCry Video Explanation</strong>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/cZ543_0bjbw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </body>
     </div>
   </Layout>
