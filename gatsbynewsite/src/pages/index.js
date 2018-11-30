@@ -30,10 +30,11 @@ class Homepage extends React.Component {
                                 <h2><strong>Summary of the website purpose</strong></h2>
                             </header>
                             <p>
-                                The purpose of this website is to teach people
-                                aspects of computer security that they may not know. This site contains information
-                                and practical steps that you can take to secure yourself when using the internet
-                                Please look at as many of the topics as you can.
+                                The purpose of this website is to you
+                                aspects of computer security that you might not know. This site contains information
+                                and practical steps that you can take to secure yourself when using the internet. Each
+                                page contains information on different areas of the Internet, and how you can 
+                                secure yourself properly against threats.
                             </p>
                         </div>
                         <div className="col-6">

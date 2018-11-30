@@ -24,10 +24,20 @@ function updatesoft () {
       ones. Computer documents can often be at stake, when a computer has outdated software, and in some cases, these documents can 
       be wiped out or held ransom by hacker(s). As well, it can mean you will miss out new and useful features that come bundled with 
       those updates, some of which can help protect your computer in new ways. The WannaCry attack was based on people not updating their 
-      software. <br /><br />
-      <strong>Is my computer up to date?:</strong> If your computer has Windows 7 or lower, then Microsoft Baseline Security Analyzer could be the right tool 
-      for you. This software will tell you which updates you need for your windows computer. </p>
+      software. which infected 200,000 people's computers, exploited the fact people do not keep their software up-to-date<br /><br />
+      <strong>Is my computer up to date?:</strong> If your computer has Windows 7 or lower, then 
+      <a href ="http://www.microsoft.com/en-ca/download/details.aspx?id=19892">Microsoft Baseline Security Analyzer</a> 
+      could be the right tool for you. This software will tell you which updates you need for your windows computer. 
 
+
+    “Patch my PC updater” is a great tool to install which will check all of the programs on your pc to see if any are out of date. 
+    You can download it at this link, and it does not need to be installed. As soon as it is downloaded, you can run it, and it can 
+    begin installing the majority of your software updates for you. Once it opens, just press the button in the right corner to start 
+    installing most of the updates your computer needs. Download it 
+    <a href = "https://patchmypc.com/home-updater-download">here</a>
+    <br /><br />
+    <strong>Sources</strong>
+    </p>
   </div>
   <div class ="video">
   <body>

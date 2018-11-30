@@ -48,9 +48,56 @@ function password () {
     <div class = "paragraph">
     <p>Password Managers: Password managers are used to manage all of the passwords you have, 
         so that they can be as unique, and long as you want <br />
+
+        <strong>Why should I use one?:</strong> By using a password manager, your passwords can be as complex as 
+        you want and you will not need to remember them. They also save time! A password manager 
+        could free up entire hours of your time! A good example of one is called “Last Pass”. 
+        Password managers are also safe because they encrypt your passwords, so that if hacked, 
+        a hacker will not understand what your passwords are for. Password Managers only require 
+        you to know one password, so that you can log in to your password manager. 
+        
+        <strong>How to install one on Chrome</strong><br />
+        <ol>
+            <li>Click on the Apps button in the left corner</li>
+            <li>Press the button that says "Web store" </li>
+            <li>Look for the search bar on the left side of the page</li>
+            <li>Enter into the search bar, "lastPass"</li>
+            <li>Click on the first result, it should say “LastPass Password Manager”</li>
+            <li>Click on the install button </li>
+        </ol><br /><br />
+
+         <strong>How to install one on Microsoft Edge</strong><br />
+        <ol>
+            <li>Click on the Settings button, it has three dots and is in the right corner of the screen.</li>
+            <li>Inside of the settings list, there is an extension button, click on that button. </li>
+            <li>Click on the link that says “Explore more extensions”</li>
+            <li>Enter into the searchbar at the top, “lastPass”.</li>
+            <li>Click on the on the first result, which should say “LastPass Password Manager”</li>
+            <li>Click on the Get button</li>
+        </ol><br /><br />
+        <strong>How to install one on Microsoft Edge</strong><br />
+        <ol>
+            <li>Click on the settings button, it has three lines and is in the right corner of the screen.</li>
+            <li>Click on the add-ons button.</li>
+            <li>Click on the “Find More add-ons” button. This will create a new tab.</li>
+            <li>In the newly made tab, look for the search bar at the right corner, and enter “lastPass”.</li>
+            <li>Click on the first result, it should say “LastPass Password Manager”</li>
+            <li>Click on the “Add to Firefox” button.</li>
+        </ol><br /><br />
+
+        <strong>What if I still don't want to use one?:</strong> A good enough substitute to using a password manager would be 
+        writing your passwords out on a piece of paper that you keep somewhere else, or keeping them inside of 
+        a word document on your computer. Doing either of these will allow you to write secure passwords without 
+        having to remember what they are. In general, keep them encrypted, keep them safe. <br /><br />
+
         Information from: <a href = "https://www.alphr.com/features/371158/top-ten-password-cracking-techniques">Password Cracking Techniques</a>
     </p>
-    
+    <div class ="video">
+    <body>
+        <object data="http://www.youtube.com/embed/HSnHj-zKF4"
+        width="560" height="315"></object>
+    </body>
+    </div>
     
     </div>
   </Layout>

@@ -109,6 +109,13 @@ function emailsec () {
             <li>To check the health of your computer, click on ìHealth report.</li>
         </ol>
     </div>
+    <div class ="video">
+  <body>
+        <strong>Why is this important?</strong><br />
+        <object data="http://www.youtube.com/embed/gmALK-RsXJ8"
+        width="560" height="315"></object>
+    </body>
+    </div>
   </Layout>
     )
 }
